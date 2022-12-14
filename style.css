@@ -1,0 +1,150 @@
+/* *{margin:0; padding: 2px;} */
+body {
+  background-image: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  color: greenyellow;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-family: "Times New Roman";
+  font-size: x-large;
+}
+h2 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: x-large;
+  font-family: "Times New Roman";
+}
+.speed1 {
+  display: flex;
+  margin-left: 30px;
+}
+.icon {
+  width: 40px;
+  height: 50px;
+}
+
+.speed2 {
+  display: flex;
+  margin-left: 8rem;
+}
+ul {
+  display: flex;
+  gap: 3rem;
+  text-decoration: none;
+}
+.konye {
+  display: flex;
+}
+
+.speed3 {padding: 0px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+p {
+  color: white;
+  font-style: italic;
+}
+.speed4 {
+  margin-top: 200px;
+}
+.speed5 {
+  margin-top: 30px;
+}
+
+.kunle {
+  display: flex;
+}
+.ican {
+  display: flex;gap: 2px;
+  margin-left: 25px;height: 20px;width: 20px; margin-top: 10px;
+}
+.speed6 {
+  margin-top: 50px;
+}
+.speed7 {
+  width: 250px;
+  text-align: center;
+  background-color: black;
+  margin-left: 400px;
+  margin-top: 150px;
+  border: 20px;
+  display: block;
+  height: 350px; padding: 20px;
+}
+.tunde {
+  margin-left: 30px;
+}
+input {
+  background-color: whitesmoke;
+  color: black;
+  font-weight: 500;
+  font-size: medium;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+button {
+  background-color: goldenrod;
+  color: black;
+  font-weight: 500;
+  font-size: medium;
+  font-style: italic;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* @media screen and (min-width: 500px) and (max-width:600px){ */
+  @media only screen and (max-width: 450px) {
+    ul {
+      display:none;
+    }
+    .konye{display: list-item;}
+    .kunle{display: list-item;}
+    .speed7 {
+      width: 250px;
+      text-align: center;
+      background-color: black;
+      margin-left: 30px;
+      margin-top: 50px;
+      border: 20px;
+      display: block;
+      height: 350px; padding: 20px;
+    }
+    .speed2 {
+      margin-left: 0px;
+    }
+    .speed4 {
+      margin-top: 50px;
+    }
+    .speed3 {padding: 0px;
+      margin-left: 30px;
+    }
+    .icon {
+      width: 20px;
+      height: 30px;
+    }
+    h1 {
+      color: greenyellow;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-family: "Times New Roman";
+      font-size: medium;
+    }
+    h2 {
+      color: white;
+      text-transform: uppercase;
+      font-weight: bolder;
+      font-size: medium;
+      font-family: "Times New Roman";
+    }
+    p {
+      color: white;
+      font-style: italic;font-size:small
+    }
+  }
+  
